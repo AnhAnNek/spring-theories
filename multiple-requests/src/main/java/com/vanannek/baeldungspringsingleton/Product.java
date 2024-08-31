@@ -1,0 +1,14 @@
+package com.vanannek.baeldungspringsingleton;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class Product {
+    private Integer id;
+    private String name;
+    private Stock stock;
+}
